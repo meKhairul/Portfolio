@@ -5,7 +5,7 @@ import profileImg from "../assets/profile.png";
 
 export default function Hero({ id }) {
   return (
-    <Section id={id} lightColor="bg-[#cdf1cd]" darkColor="bg-[#36524b]">
+    <Section id={id} lightColor="bg-[#cdf1cd]" darkColor="bg-gray">
       <motion.img
         src={profileImg}
         alt="Profile"
